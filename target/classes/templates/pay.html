@@ -449,6 +449,7 @@
                 },
                 success:function (data) {
                     if(data.success==true){
+                        debugger
                         // 存入num
                         $.cookie('payNum', data.result);
                         $("#submit").removeAttr("disabled");

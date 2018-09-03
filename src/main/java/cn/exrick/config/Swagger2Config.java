@@ -38,11 +38,11 @@ public class Swagger2Config {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("XPay Api Documentation")
-                .description("XPay个人支付收款系统API接口文档")
-                .termsOfServiceUrl("http://xpay.exrick.cn/")
-                .contact(new Contact("Exrick", "http://blog.exrick.cn", "1012139570@qq.com"))
-                .version("1.0.0")
+                .title("superPay Api Documentation")
+                .description("superPay")
+                .termsOfServiceUrl("http://superPay.admin.cn/")
+                .contact(new Contact("admin", "http://blog.admin.cn", "admin@qq.com"))
+                .version("1.0.1")
                 .build();
     }
 }
